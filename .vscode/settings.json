@@ -1,0 +1,15 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.renderFinalNewline": true,
+  "editor.multiCursorModifier": "alt",
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "eslint.validate": [
+    "typescript",
+    "javascript"
+  ]
+}

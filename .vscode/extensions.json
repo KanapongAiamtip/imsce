@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "johnsoncodehk.volar",
+    "dbaeumer.vscode-eslint",
+    "mikestead.dotenv",
+    "cschlosser.doxdocgen",
+    "ecmel.vscode-html-css",
+    "eg2.vscode-npm-script",
+    "bradlc.vscode-tailwindcss",
+    "aaron-bond.better-comments",
+    "humao.rest-client"
+  ],
+  "unwantedRecommendations": [
+    "coenraads.bracket-pair-colorizer",
+    "coenraads.bracket-pair-colorizer-2"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "imsce",
+  "version": "1.0.0",
+  "description": "A Website Information Management System on Cooperative Education for CSIT Students Naresuan University",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanapongAiamtip/imsce.git"
+  },
+  "keywords": [
+    "ticket",
+    "booking",
+    "concert",
+    "shows",
+    "community"
+  ],
+  "engines": {
+    "node": ">=14",
+    "npm": ">=7"
+  },
+  "engineStrict": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:backend": "cd packages/backend && npm run watch",
+    "dev:frontend": "cd packages/frontend && npm run dev",
+    "dev:common": "cd packages/common && npm run watch",
+    "build:backend": "cd packages/backend && npm run build",
+    "build:frontend": "cd packages/frontend && npm run build",
+    "build:common": "cd packages/common && npm run build"
+  },
+  "author": "ReebA Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grindarius/reeba/issues"
+  },
+  "homepage": "https://github.com/grindarius/reeba#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unused-imports": "^1.1.4",
+    "eslint-plugin-vue": "^7.16.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
