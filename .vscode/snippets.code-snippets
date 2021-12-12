@@ -1,0 +1,42 @@
+{
+  "New Vue TypeScript SFC": {
+    "prefix": "spa",
+    "body": [
+      "<template>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "  name: '$0'",
+      "})",
+      "</script>",
+      ""
+    ],
+    "description": "Generates Vue SPA file for TypeScript"
+  },
+  "New template tag": {
+    "prefix": "template",
+    "body": [
+      "<template>",
+      "$0",
+      "</template>",
+      ""
+    ]
+  },
+  "Fastify new route template": {
+    "prefix": "route",
+    "body": [
+      "import { FastifyInstance, FastifyPluginOptions } from 'fastify'",
+      "",
+      "export default async (instance: FastifyInstance, _: FastifyPluginOptions): Promise<void> => {",
+      "  instance.get('/', async () => {",
+      "    $0",
+      "  })",
+      "}",
+      ""
+    ],
+    "description": "Generate new fastify route"
+  }
+}

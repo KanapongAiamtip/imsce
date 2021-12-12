@@ -1,0 +1,26 @@
+{
+  "name": "@imsce/common",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Common functions for Imsce",
+  "main": "dist/index",
+  "types": "dist/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KanapongAiamtip/imsce.git",
+    "directory": "packages/common"
+  },
+  "author": "Imsce Team",
+  "scripts": {
+    "serve": "node dist/index.js",
+    "build": "tsc -p ./tsconfig.json",
+    "watch": "nodemon",
+    "watch:ts": "tsc -w",
+    "serve:ts-node": "ts-node src/index.ts",
+    "clean": "npx rimraf dist && npx rimraf node_modules",
+    "rebuild": "npm run clean && npm run watch:ts",
+    "fix": "eslint **/*.ts --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

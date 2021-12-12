@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "baseUrl": ".",
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "ES2015",
+    "module": "CommonJS",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "alwaysStrict": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "assumeChangesOnlyAffectDirectDependencies": true,
+    "forceConsistentCasingInFileNames": true,
+    "noErrorTruncation": true,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "useDefineForClassFields": true,
+    "paths": {
+      "@reeba/*": ["./packages/*/src"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "lib",
+    ".*/**"
+  ]
+}
