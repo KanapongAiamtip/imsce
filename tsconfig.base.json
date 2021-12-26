@@ -30,7 +30,7 @@
     "resolveJsonModule": true,
     "useDefineForClassFields": true,
     "paths": {
-      "@reeba/*": ["./packages/*/src"]
+      "@imsce/*": ["./packages/*/src"]
     }
   },
   "exclude": [
