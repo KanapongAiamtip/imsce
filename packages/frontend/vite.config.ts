@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: [
       { find: '@', replacement: resolve(__dirname, 'src') },
-      { find: '@reeba/common', replacement: resolve(__dirname, '..', 'common', 'src') }
+      { find: '@imsce/common', replacement: resolve(__dirname, '..', 'common', 'src') }
     ]
   },
   server: {
