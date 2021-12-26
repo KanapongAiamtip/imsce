@@ -1,6 +1,6 @@
 import { computed, ComputedRef, Ref, ref } from 'vue'
 
-import { meaningOfLife } from '@reeba/common'
+import { meaningOfLife } from '@imsce/common'
 
 interface UseCounter {
   count: Ref<number>
