@@ -53,5 +53,9 @@
     "nodemon": "^2.0.15",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "buefy": "^0.9.13",
+    "vuetify": "^2.6.2"
   }
 }
