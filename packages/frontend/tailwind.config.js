@@ -7,7 +7,11 @@ module.exports = {
   },
   darkMode: false,
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        primary: '#BC8CF2'
+      }
+    }
   },
   variants: {
     extend: {}
