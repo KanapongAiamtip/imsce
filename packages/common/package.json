@@ -20,7 +20,5 @@
     "clean": "npx rimraf dist && npx rimraf node_modules",
     "rebuild": "npm run clean && npm run watch:ts",
     "fix": "eslint **/*.ts --fix"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  }
 }
