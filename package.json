@@ -7,11 +7,9 @@
     "url": "git+https://github.com/KanapongAiamtip/imsce.git"
   },
   "keywords": [
-    "coop",
-    "booking",
-    "concert",
-    "shows",
-    "community"
+    "Cooperative Education",
+    "website",
+    "education"
   ],
   "engines": {
     "node": ">=14",
@@ -60,6 +58,7 @@
   "dependencies": {
     "buefy": "^0.9.13",
     "ky": "^0.28.7",
+    "tap": "^15.1.6",
     "vuetify": "^2.6.2"
   }
 }
