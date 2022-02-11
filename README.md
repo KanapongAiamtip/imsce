@@ -14,9 +14,9 @@ Our project consists of
 - [Vite](https://vitejs.dev/) for building our frontend Vuejs application.
 - [Buefy](https://buefy.org) to manage our frontend application's stylings.
 - [Tailwindcss](https://tailwindcss.com/) for styling our application.
-- [ESLint] to keep our TypeScript stylings constant throughout the project.
-- [Stylelint] to keep our SCSS stylings constant throughout the project.
-- [d3.js](hsttps://d3js.org) for creating beautiful graph admin side.
+- [ESLint](https://eslint.org) to keep our TypeScript stylings constant throughout the project.
+- [Stylelint](https://stylelint.io) to keep our SCSS stylings constant throughout the project.
+- [d3.js](https://d3js.org) for creating beautiful graph admin side.
 
 Our main language of development is [TypeScript](https://www.typescriptlang.org)
 
