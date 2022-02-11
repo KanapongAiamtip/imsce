@@ -1,10 +1,31 @@
 # Imsce
 A Website Information Management System on Cooperative Education for CSIT Students Naresuan University
 
-## Project structure.
-The project is a monorepo, Each monorepo has its own README
+## What is imsce.
+imsce it is a web for managing information about the department of cooperative education. Department of Computer Science and Information Technology Faculty of Science Naresuan University
+
+Our project consists of
+- imsce.com: Frontend application.
+- imsce API: Backend application API with PostgreSQL.
+
+## Technology stack.
+### imsce.csit.nu.ac.th
+- [Vuejs](https://v3.vuejs.org/) for creating frontend application.
+- [Vite](https://vitejs.dev/) for building our frontend Vuejs application.
+- [Buefy](https://buefy.org) to manage our frontend application's stylings.
+- [Tailwindcss](https://tailwindcss.com/) for styling our application.
+- [ESLint] to keep our TypeScript stylings constant throughout the project.
+- [Stylelint] to keep our SCSS stylings constant throughout the project.
+- [d3.js](hsttps://d3js.org) for creating beautiful graph admin side.
+
+Our main language of development is [TypeScript](https://www.typescriptlang.org)
+
+### Imsce API.
+- [Fastify](https://www.fastify.io/) for serving our api.
+- [PostgreSQL](https://www.postgresql.org/) for our database.
 
 ## Prequistics.
+### Check the required versions.
 First, check the required versions.
 
 - Node.js v14 or higher.
