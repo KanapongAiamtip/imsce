@@ -1,14 +1,14 @@
 # Imsce :heartpulse: :heartpulse: :heartpulse:
 A Website Information Management System on Cooperative Education for CSIT Students Naresuan University
 
-## What is imsce. :crystal_ball: :crystal_ball:	 :crystal_ball:
+## What is imsce. :crystal_ball: :crystal_ball:	:crystal_ball:
 imsce it is a web for managing information about the department of cooperative education. Department of Computer Science and Information Technology Faculty of Science Naresuan University
 
 Our project consists of
 - imsce.com: Frontend application.
 - imsce API: Backend application API with PostgreSQL.
 
-## Technology stack. balloon: balloon: balloon:
+## Technology stack. :balloon: :balloon: :balloon:
 ### imsce.csit.nu.ac.th
 - [Vuejs](https://v3.vuejs.org/) for creating frontend application.
 - [Vite](https://vitejs.dev/) for building our frontend Vuejs application.
@@ -24,7 +24,7 @@ Our main language of development is [TypeScript](https://www.typescriptlang.org)
 - [Fastify](https://www.fastify.io/) for serving our api.
 - [PostgreSQL](https://www.postgresql.org/) for our database.
 
-## Prequistics. bulb: 
+## Prequistics. :bulb:
 ### Check the required versions. :pushpin: :pushpin: :pushpin:
 First, check the required versions.
 
