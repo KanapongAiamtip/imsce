@@ -48,7 +48,7 @@ When Node.js is installed, upgrade `npm` by running
 npm i -g npm@latest
 ```
 
-## Running the application.
+## Running the application. :mag_right:
 ```
 npm install
 ```
